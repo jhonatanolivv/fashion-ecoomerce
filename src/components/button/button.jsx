@@ -1,7 +1,8 @@
 import './button.scss'
 
 const BUTTON_TYPE_CLASS = {
-    google: 'google-sing-in'
+    google: 'google-sing-in',
+    inverted: 'inverted'
 }
 
 export function Button( {children, typeButton, ...otherProps} ) {
