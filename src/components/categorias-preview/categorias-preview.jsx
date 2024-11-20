@@ -2,6 +2,7 @@ import { useEffect, useState } from "react"
 import { addCollectionAndDocuments, getCategoriesAndDocuments } from "../../utils/firebase"
 import { SHOP_DATA } from "../../shop-data"
 import { CategoryPreview } from "../category-preview/category-preview"
+import './categorias-preview.scss'
 
 
 export function CategoriasPreview() {

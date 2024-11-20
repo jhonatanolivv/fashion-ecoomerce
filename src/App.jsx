@@ -9,8 +9,8 @@ export function App() {
  return (
  <>
  <Navigation />
- {/* <Home /> */}
- {/* <Auth /> */}
+ <Home />
+ <Auth />
  <Shop />
  </>
  )
