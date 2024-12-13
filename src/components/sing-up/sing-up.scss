@@ -1,3 +1,25 @@
+.sing-up {
+    background-color: white;
+    width: 100%;
+    max-width: 400px; /* Limite de largura para centralizar */
+    padding: 20px;
+    border-radius: 10px; /* Opcional */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px; /* Espaçamento entre inputs */
+    width: 100%;
+}
+
 .form-container input {
-    padding: 2%;
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box; /* Inclui padding e borda no width */
 }

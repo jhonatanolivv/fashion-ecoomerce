@@ -32,7 +32,7 @@ export function SingUp() {
     }
 
     return (
-        <div>
+        <div className="sing-up">
             <h2>Não possui conta?</h2>
             <form className="form-container" onSubmit={handleSubmit}>
                 <FormInput

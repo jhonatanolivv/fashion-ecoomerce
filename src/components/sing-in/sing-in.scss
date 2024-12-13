@@ -1,3 +1,28 @@
-.sing-in input {
-    padding: 2%;
+.sing-in {
+    background-color: #f0f0f0;
+    width: 100%;
+    max-width: 400px; /* Limite de largura para centralizar */
+    padding: 20px;
+    border-radius: 10px; /* Bordas arredondadas */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+
+.form-container {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    width: 100%;
+}
+
+.form-container input {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    box-sizing: border-box;
+}
+
+button {
+    margin-top: 10px;
 }

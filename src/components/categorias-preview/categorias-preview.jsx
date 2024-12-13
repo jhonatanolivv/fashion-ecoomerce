@@ -20,7 +20,7 @@ export function CategoriasPreview() {
         }
 
         getCategories()
-    })
+    }, [])
     
     return (
         <>
