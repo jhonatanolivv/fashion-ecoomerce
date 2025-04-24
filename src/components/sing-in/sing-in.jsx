@@ -15,11 +15,11 @@ export function SingIn() {
 
     const handleChange = (event) => {
         const { name, value } = event.target // descontruindo para usar o name e seu value
-        setFormFilds( {...formFilds, [name]: value}) // atualizando meu staus 
+        setFormFilds({ ...formFilds, [name]: value }) // atualizando meu staus 
     }
 
-    const handleSubmit = (event) => { 
-        event.preventDefault() 
+    const handleSubmit = (event) => {
+        event.preventDefault()
         console.log(formFilds)
         setFormFilds(defaultFormFilds) // para resetar o formulario
     }
@@ -30,24 +30,24 @@ export function SingIn() {
             <h2>Você já possui conta?</h2>
             <form className="form-container" onSubmit={handleSubmit}>
                 <FormInput
-                label="E-mail"
-                type="email"
-                required
-                name="email"
-                placeholder="Digite seu e-mail"
-                autoComplete="off"
-                onChange={handleChange}
-                value={email}
+                    label="Email"
+                    type="email"
+                    required
+                    name="email"
+                    placeholder="Digite seu e-mail"
+                    autoComplete="off"
+                    onChange={handleChange}
+                    value={email}
 
                 />
                 <FormInput
-                label="Senha"
-                type="password"
-                required
-                name="senha"
-                placeholder="Digite seu senha"
-                onChange={handleChange}
-                value={senha}
+                    label="Senha"
+                    type="password"
+                    required
+                    name="senha"
+                    placeholder="Digite seu senha"
+                    onChange={handleChange}
+                    value={senha}
                 />
             </form>
             <Button type="submit">
