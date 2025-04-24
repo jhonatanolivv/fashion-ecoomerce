@@ -3,7 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "type": "module",
-  "homepage": "https://github.com/jhonatanolivv/fashion-ecoomerce.git",
+  "homepage": "https://jhonatanolivv.github.io/fashion-ecoomerce",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
